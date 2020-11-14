@@ -10,7 +10,8 @@ import './SongPickerPage.css'
 
 class SongPlayer extends React.Component {
     state = {
-        url: process.env.PUBLIC_URL + this.props.song_path,
+        // url: process.env.PUBLIC_URL + this.props.song_path,
+        url: this.props.song_path,
         playing: false,
         controls: false,
         volume: 0.8,
