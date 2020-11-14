@@ -1,0 +1,43 @@
+.main {
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    padding-top: 5vh;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+p {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.video {
+    height: 600px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button {
+    font-size: large;
+    font-weight: bold;
+    line-height: revert;
+    /* border-color: #f3cc72; */
+    /* background-color: #f3cc72; */
+}
+
+#button:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    /* #ecb025 */
+}
+
+.explore-button {
+    padding: 5vh;
+    text-align: center;   
+}

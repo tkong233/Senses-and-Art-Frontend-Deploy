@@ -1,0 +1,19 @@
+@import '~antd/dist/antd.css';
+
+html, body {
+    height: 100%;
+}
+
+body {
+    
+}
+
+.App {
+    text-align: center;
+    margin: auto;
+}
+
+.page {
+    margin: 3%;
+    width: 100%;
+}
