@@ -55,7 +55,8 @@ class App extends React.Component {
                 instrument : "Flute, Harpsichord",
                 contributor : "Isabella Stewart Gardner Museum",
                 song_contributor_url: "",
-                song_path : "/songs/Air on the G String.mp3"
+                // song_path : "/songs/Air on the G String.mp3",
+                song_path : "/songs/1.mp3"
             },
             {
                 id : 2,
