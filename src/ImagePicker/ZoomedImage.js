@@ -6,7 +6,8 @@ class ZoomedImage extends React.Component {
     render() {
         let images = this.props.images;
         let imageId = this.props.match.params.imageId;
-        let image_path = images[imageId].image_path
+        let selectedImage = images.filter(img => img.id == imageId)[0];
+        let image_path = selectedImage.image_path
 
         return (
             <img className="zoomed-image" src={image_path} alt="zoomed image"></img>

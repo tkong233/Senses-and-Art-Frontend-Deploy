@@ -3,7 +3,7 @@ import { Card } from 'antd';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import ImageDescription from './ImageDescription';
-import './Image.css'
+import './Image.css';
 
 const { Meta } = Card;
 
