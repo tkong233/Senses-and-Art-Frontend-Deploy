@@ -56,7 +56,7 @@ class App extends React.Component {
                 contributor : "Isabella Stewart Gardner Museum",
                 song_contributor_url: "",
                 // song_path : "/songs/Air on the G String.mp3",
-                song_path : "/songs/1.mp3"
+                song_path: 'https://drive.google.com/file/d/1K05-2qiN59QV_P3MJ8su6idsjpiQxtYA/view?usp=sharing',
             },
             {
                 id : 2,
