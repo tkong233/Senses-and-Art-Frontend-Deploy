@@ -344,7 +344,19 @@ class App extends React.Component {
       })
   }
 
+  getImageById = (id) => {
+    const { images } = this.state;
+    for (var i = 0; i < images.length; i++) {
+      if (images[i].id == id) {
+        return images[i];
+      }
+    }
+    return images[0];
+  }
+
     render() {
+      const { images, songs, selectedImageId } = this.state;
+      // console.log(images.filter(m => m.id === selectedImageId));
     
       return (
         <div className="App">
@@ -359,13 +371,13 @@ class App extends React.Component {
                             <Route path="/map" exact render={() => <MapPage/>}/>
                             <Route path="/research" exact render={() => <ResearchPage/>}/>
                             <Route path="/songs" exact render={() => <SongPickerPage songs={this.state.songs}
-                                                                            image={this.state.images[this.state.selectedImageId]}
+                                                                            image={this.getImageById(selectedImageId)}
                                                                             onClickSelectSongButton={this.onClickSelectSongButton.bind(this)}
                                                                             />}/>
                             <Route path="/images" exact render={() => <ImageGridPage images={this.state.images}
                                                                         imageSelectEnabled={true}/>}/>
                             <Route path="/meditation" exact render={() => <MeditationPage song={this.state.songs[this.state.selectedSongId - 1]}
-                                                                                        image={this.state.images[this.state.selectedImageId]}/>}/>
+                                                                                          image={this.getImageById(selectedImageId)}/>}/>
                             <Route path="/share" exact render={() => <SharePage/>}/>
                             <Route path="/:imageId" render={(props) => <ZoomedImagePage images={this.state.images}
                                                                                         onClickSelectImageButton={this.onClickSelectImageButton.bind(this)}
@@ -386,3 +398,4 @@ class App extends React.Component {
   }
 
 export default App;
+// image={this.state.images[this.state.selectedImageId]}/>}
