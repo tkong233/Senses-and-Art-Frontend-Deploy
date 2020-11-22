@@ -23,15 +23,6 @@ class SongPlayer extends React.Component {
     playbackRate: 1.0,
   }
   
-  load = url => {
-    this.setState({
-      url,
-      played: 0,
-      loaded: 0,
-      pip: false
-    })
-  }
-  
   handlePlayPause = () => {
     this.setState({ playing: !this.state.playing })
   }
@@ -74,7 +65,7 @@ class SongPlayer extends React.Component {
   
   render () {
     const { url, playing, controls, played, duration, playbackRate, pip } = this.state
-
+    console.log(url);
     return (
       <div className='song-card'>
         <section className='section'>

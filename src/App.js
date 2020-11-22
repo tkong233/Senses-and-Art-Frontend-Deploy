@@ -197,7 +197,7 @@ class App extends React.Component {
             song_contributor_url: "orchestra",
             song_path: 'http://hwcdn.libsyn.com/p/e/a/8/ea8d302a5530fa76/theconcert143.mp3?c_id=4578123&cs_id=4578123&expiration=1594589226&hwt=e698bb4e699cf0517a6afdff0d44ceae',
           },
-    ],
+        ],
 
         images : [
             // image_path = id + 1
@@ -256,15 +256,6 @@ class App extends React.Component {
                 contributor : "Isabella Stewart Gardner Museum",
                 url: 'https://www.gardnermuseum.org/experience/collection/10906',
             },
-            {
-                id : 6,
-                image_path : '/images/7.jpg',
-                title : "The Lido",
-                artist : "Paul H. Tilton",
-                date : "1894",
-                contributor : "Isabella Stewart Gardner Museum",
-                url: 'https://www.gardnermuseum.org/experience/collection/35587',
-            },
             // {
             //     id : 7,
             //     image_path : '/images/8.jpg',
@@ -294,7 +285,7 @@ class App extends React.Component {
             {
               id: 11,
               image_path: '/images/12.jpg',
-              title: 'Waterfall in Crevice, Road to Vik, Below Mýrdalsjökull on Southern Coast, Iceland',
+              title: 'White Aspens and Hillside, Route 14, Routt County, Colorado',
               artist: 'Eliot Porter',
               date: 'May 28, 1975',
               contributor: 'Amon Carter Museum, Fort Worth, Texas',
@@ -303,12 +294,21 @@ class App extends React.Component {
             {
               id: 12,
               image_path: '/images/13.jpg',
-              title: 'Waterfall in Crevice, Road to Vik, Below Mýrdalsjökull on Southern Coast, Iceland',
+              title: 'Sunset Clouds, Tesuque, New Mexico, ca.',
               artist: 'Eliot Porter',
               date: 'July 1959',
               contributor: 'Amon Carter Museum, Fort Worth, Texas',
               url: 'http://porter.cartermuseum.org/collection.php?asn=P1990-51-1831&mcat=4&scat=26',
-            }
+            },
+            {
+              id : 6,
+              image_path : '/images/7.jpg',
+              title : "The Lido",
+              artist : "Paul H. Tilton",
+              date : "1894",
+              contributor : "Isabella Stewart Gardner Museum",
+              url: 'https://www.gardnermuseum.org/experience/collection/35587',
+            },
         ]
     }
 

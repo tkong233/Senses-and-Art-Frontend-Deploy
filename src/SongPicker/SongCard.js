@@ -7,12 +7,12 @@ import SongCardInfo from './SongCardInfo';
 class SongCard extends React.Component {
     render() {
         const { id, title, composer, instrument, song_path } = this.props;
+        console.log(id, title, song_path);
         let songSelectEnabled = this.props.songSelectEnabled == null ? true : this.props.songSelectEnabled;
         return (
             <Card
                 title={<SongCardInfo songSelectEnabled={songSelectEnabled}
-                                    {...this.props}
-                                     />}
+                                     {...this.props} />}
             >
                 <SongPlayer song_path={song_path}/>
             </Card>

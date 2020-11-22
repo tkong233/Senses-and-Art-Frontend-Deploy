@@ -23,14 +23,14 @@ class SongCardList extends React.Component {
 
         return (
             <div>
-                {songs.map((song) => <SongCard 
+                {songs.map((song) => (<SongCard 
                                             id={song.id}
                                             title={song.title}
                                             composer={song.composer}
                                             instrument={song.instrument}
                                             song_path={song.song_path}
                                             onClickSelectSongButton={onClickSelectSongButton}
-                                        />
+                                        />)
                 ).slice((this.state.currentPage - 1) * pageSize, this.state.currentPage * pageSize)}
                 <Pagination className="pagination-bar"
                             id="pagination-bar"

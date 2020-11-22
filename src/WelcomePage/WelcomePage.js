@@ -21,22 +21,16 @@ class WelcomePage extends React.Component {
     const { url, playing, controls, played, duration, playbackRate, pip } = this.state
     return (
       <div className="main">
-        <h1>Senses and Art</h1>
+        <img src='/sa_text.png'
+             style={{marginBottom: '5px'}}
+        />
+        {/* <h1>Senses and Art</h1> */}
         <p>
-            This time of isolation is resulting in losses beyond concerts and exhibitions. 
-            Many of us experience less shared meaning. We are drifting from our stories.
-            The good news is that to engage with art is to engage with ourselves.
-            Perception is participation. Art and music soothe us, enliven us and heal us. 
-            By tuning in, we discern our unique perceptions reflected in a particular work. 
-            Art deepens on our connection to our memories and our shared humanity.
-        </p>
-        <p>
-            This is a place for you.
-        </p>
-        <p>
-            Come in, take up the role of observer and participant. 
-            Notice the calm when you bring an image together with  music to make an inner space which embraces your feelings.
-            Then, share your experience with the world.
+        Though we cannot meet face to face to share the meaning the arts hold for each of us,
+        we can cultivate a mindful awareness of ourselves as a resource to one another.
+        While we are apart, we can remain engaged. Our personal perceptions are
+        the rich settings in which the arts flourish. Your senses are the bridge
+        to participation. Senses and Art is place for you in this difficult time.
         </p>
 
         {/* <img className='image' src='/welcome.png'/> */}
