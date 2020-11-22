@@ -34,7 +34,7 @@ class WelcomePage extends React.Component {
 
         {/* <img className='image' src='/welcome.png'/> */}
         <ReactPlayer className='video react-player'
-                    url='https://youtu.be/vMuG-XEIsl4'
+                    url='https://youtu.be/EMciAqjmhso'
         />
 
         <div className="explore-button">
