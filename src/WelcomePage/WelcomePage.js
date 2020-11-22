@@ -26,11 +26,10 @@ class WelcomePage extends React.Component {
         />
         {/* <h1>Senses and Art</h1> */}
         <p>
-        Though we cannot meet face to face to share the meaning the arts hold for each of us,
-        we can cultivate a mindful awareness of ourselves as a resource to one another.
-        While we are apart, we can remain engaged. Our personal perceptions are
-        the rich settings in which the arts flourish. Your senses are the bridge
-        to participation. Senses and Art is place for you in this difficult time.
+        Though we cannot meet face-to-face to appreciate the arts, we can cultivate a calm, 
+        mindful awareness of our senses as a resource.  While we are apart, we can remain 
+        engaged. Our personal perceptions are the settings in which the arts become meaningful.  
+        Senses and Art is place to for you in this difficult time.
         </p>
 
         {/* <img className='image' src='/welcome.png'/> */}
