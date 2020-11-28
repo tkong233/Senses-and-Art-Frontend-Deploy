@@ -11,6 +11,10 @@ class NavBar extends React.Component {
                     <Link id='link' to={'/map'}> Map </Link>
                 </Menu.Item>
 
+                <Menu.Item id="nav-bar-item" key="Team">
+                    <Link id='link' to={'/team'}> Team </Link>
+                </Menu.Item>
+
                 <Menu.Item id="nav-bar-item" key="Research">
                     <Link id='link' to={'/research'}> Research </Link>
                 </Menu.Item>

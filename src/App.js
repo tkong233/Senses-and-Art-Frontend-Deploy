@@ -13,6 +13,7 @@ import SongPickerPage from './SongPicker/SongPickerPage';
 import MeditationPage from './MeditationPage/MeditationPage';
 import SharePage from './SharePage/SharePage';
 import MapPage from './MapPage/MapPage';
+import TeamPage from './TeamPage/TeamPage';
 
 
 // layout
@@ -369,6 +370,7 @@ class App extends React.Component {
                     <Switch className="main">
                             <Route path="/" exact render={() => <WelcomePage/>}/>
                             <Route path="/map" exact render={() => <MapPage/>}/>
+                            <Route path="/team" exact render={() => <TeamPage/>}/>
                             <Route path="/research" exact render={() => <ResearchPage/>}/>
                             <Route path="/songs" exact render={() => <SongPickerPage songs={this.state.songs}
                                                                             image={this.getImageById(selectedImageId)}
