@@ -15,7 +15,6 @@ class SongCardList extends React.Component {
         const totalSongs = songs.length;
         const pageSize = 5;
         const onChange = page => {
-            console.log(page);
             this.setState({
               currentPage: page,
             });
