@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
+import WelcomeImages from './WelcomeImages';
 import './WelcomePage.css';
 
 class WelcomePage extends React.Component {
@@ -21,10 +22,10 @@ class WelcomePage extends React.Component {
     const { url, playing, controls, played, duration, playbackRate, pip } = this.state
     return (
       <div className="main">
+        <WelcomeImages/>
         <img src='/sa_text.png'
-             style={{marginBottom: '5px'}}
+             style={{marginBottom: '3em', marginTop: '1em', width: '30%'}}
         />
-        {/* <h1>Senses and Art</h1> */}
         <p>
         Though we cannot meet face-to-face to appreciate the arts, we can cultivate a calm, 
         mindful awareness of our senses as a resource.  While we are apart, we can remain 

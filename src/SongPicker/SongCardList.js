@@ -28,6 +28,7 @@ class SongCardList extends React.Component {
                                             composer={song.composer}
                                             instrument={song.instrument}
                                             song_path={song.song_path}
+                                            contributor={song.contributor}
                                             onClickSelectSongButton={onClickSelectSongButton}
                                         />)
                 ).slice((this.state.currentPage - 1) * pageSize, this.state.currentPage * pageSize)}
