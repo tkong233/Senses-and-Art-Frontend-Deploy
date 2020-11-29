@@ -44,12 +44,13 @@ class TeamPage extends React.Component {
   render() {
     const { bios } = this.state;
     return (
-      <div>
+      <div className='team-page'>
         {bios.map(b => (
           <Bio
             name={b.name}
             role={b.role}
             intro={b.intro}
+            style={{ marginLeft: 'auto', marginRight: 'auto' }}
           />
         ))}
       </div>
