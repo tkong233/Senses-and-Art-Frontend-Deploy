@@ -18,7 +18,7 @@ class MeditationPage extends React.Component {
                 </div>
 
                 <div className='button-div'>
-                    <Button id='button' href='/map'>
+                    <Button id='button' href='/journal'>
                         Next
                     </Button>
                 </div>

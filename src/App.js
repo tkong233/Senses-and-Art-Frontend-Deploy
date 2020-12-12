@@ -14,6 +14,7 @@ import MeditationPage from './MeditationPage/MeditationPage';
 import SharePage from './SharePage/SharePage';
 import MapPage from './MapPage/MapPage';
 import TeamPage from './TeamPage/TeamPage';
+import JournalPage from './JournalPage/JournalPage';
 
 
 // layout
@@ -381,6 +382,7 @@ class App extends React.Component {
                             <Route path="/meditation" exact render={() => <MeditationPage song={this.state.songs[this.state.selectedSongId - 1]}
                                                                                           image={this.getImageById(selectedImageId)}/>}/>
                             <Route path="/share" exact render={() => <SharePage/>}/>
+                            <Route path="/journal" exact render={() => <JournalPage/>}/>
                             <Route path="/:imageId" render={(props) => <ZoomedImagePage images={this.state.images}
                                                                                         onClickSelectImageButton={this.onClickSelectImageButton.bind(this)}
                                                                                         toggleImageSelectEnabled={this.toggleImageSelectEnabled.bind(this)}
