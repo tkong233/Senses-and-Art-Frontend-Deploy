@@ -5,15 +5,15 @@ class WelcomeImages extends React.Component {
     const dir = '/welcomeImages';
     return (
       <div id="container">
-        <img src={dir + '/1.jpg'}/>
-        <img src={dir + '/2.jpg'}/>
-        <img src={dir + '/3.jpg'}/>
-        <img src={dir + '/4.jpg'}/>
-        <img src={dir + '/5.jpg'}/>
-        <img src={dir + '/6.png'}/>
-        <img src={dir + '/7.jpg'}/>
-        <img src={dir + '/8.png'}/>
-        <img src={dir + '/9.png'}/>
+        <img src={dir + '/1.jpeg'}/>
+        <img src={dir + '/2.jpeg'}/>
+        <img src={dir + '/3.jpeg'}/>
+        <img src={dir + '/4.jpeg'}/>
+        <img src={dir + '/5.jpeg'}/>
+        <img src={dir + '/6.jpeg'}/>
+        <img src={dir + '/7.jpeg'}/>
+        <img src={dir + '/8.jpeg'}/>
+        <img src={dir + '/9.jpeg'}/>
       </div>
     )
   }

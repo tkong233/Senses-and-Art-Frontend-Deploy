@@ -1,6 +1,6 @@
 #container {
   display: flex;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   flex-shrink: 0;
   justify-content: space-between;
   margin-bottom: 3%;
@@ -8,18 +8,17 @@
 
 #container > img {
   object-fit: cover;
-  width: 8em;
-  height: 8em;
-
+  width: 11%;
+  height: 11%;
 }
 
 .main {
-    height: 100%;
-    width: 100%;
-    font-size: large;
-    padding-top: 5vh;
-    padding-left: 70px;
-    padding-right: 70px;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  padding-top: 5vh;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 h1 {

@@ -358,11 +358,10 @@ class App extends React.Component {
 
     render() {
       const { images, songs, selectedImageId } = this.state;
-      // console.log(images.filter(m => m.id === selectedImageId));
-    
+
       return (
         <div className="App">
-        <Layout>
+        <Layout id="layout">
             <Router>
             <Line height="10px" color="#C75E94"/>
                 <NavBar/>
