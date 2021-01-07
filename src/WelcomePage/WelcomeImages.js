@@ -1,13 +1,13 @@
 import React from 'react';
-import img1 from './welcomeImages/1.jpeg';
-import img2 from './welcomeImages/2.jpeg';
-import img3 from './welcomeImages/3.jpeg';
-import img4 from './welcomeImages/4.jpeg';
-import img5 from './welcomeImages/5.jpeg';
-import img6 from './welcomeImages/6.jpeg';
-import img7 from './welcomeImages/7.jpeg';
-import img8 from './welcomeImages/8.jpeg';
-import img9 from './welcomeImages/9.jpeg';
+import img1 from './welcomeImages/1.png';
+import img2 from './welcomeImages/2.png';
+import img3 from './welcomeImages/3.png';
+import img4 from './welcomeImages/4.png';
+import img5 from './welcomeImages/5.png';
+import img6 from './welcomeImages/6.png';
+import img7 from './welcomeImages/7.png';
+import img8 from './welcomeImages/8.png';
+import img9 from './welcomeImages/9.png';
 
 
 class WelcomeImages extends React.Component {
