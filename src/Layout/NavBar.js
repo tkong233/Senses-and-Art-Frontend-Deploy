@@ -7,12 +7,13 @@ class NavBar extends React.Component {
   render() {
     return (
       <Menu className="nav-bar" mode="horizontal">
-        <Menu.Item id="nav-bar-item" key="Map" href='/map'>
-          <Link id='link' to={'/map'}> Map </Link>
-        </Menu.Item>
-
+        
         <Menu.Item id="nav-bar-item" key="Team">
           <Link id='link' to={'/team'}> Team </Link>
+        </Menu.Item>
+
+        <Menu.Item id="nav-bar-item" key="Journal" href='/journal'>
+          <Link id='link' to={'/journal'}> Journals </Link>
         </Menu.Item>
 
         <Menu.Item id="nav-bar-item" key="Research">
