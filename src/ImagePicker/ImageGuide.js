@@ -5,8 +5,8 @@ class ImageGuide extends React.Component {
     render() {
         return (
             <div className="Guide-box">
-                <p> When you find a work meaningful, be patient. Your memories and feelings may be hidden.</p>
-                <p> You are an observer and a participant. Something in your life story is calling.</p>
+              <p>As you compare the art work, notice your memories and your mood.</p>
+              <p>Select an image which feels most meaningful to you now.</p>
             </div>
         );
     }
