@@ -10,14 +10,15 @@ class SongPickerPage extends React.Component {
     render() {
         return (
             <div className='page'>
-                <Row>
-                    <Col span={12}>
+                {/* <Row align="middle"> */}
+                  <Row>
+                    <Col span={12} >
+                      <SongPickerGuide className='song-picker-guide'/>
                         <Image {...this.props.image}
                             imageSlectEnabled={this.props.imageSlectEnabled}>
                         </Image>
                     </Col>
                     <Col span={12}>
-                        <SongPickerGuide/>
                         <SongCardList songs={this.props.songs}
                                       onClickSelectSongButton={this.props.onClickSelectSongButton}
                         />
