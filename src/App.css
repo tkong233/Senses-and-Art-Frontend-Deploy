@@ -2,10 +2,7 @@
 
 html, body {
     height: 100%;
-}
-
-body {
-    
+    min-height: 100%;
 }
 
 .App {
@@ -16,6 +13,7 @@ body {
 .page {
     margin: 3%;
     width: 100%;
+    min-height: 80%;
 }
 
 #layout {

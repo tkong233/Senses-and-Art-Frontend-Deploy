@@ -12,12 +12,12 @@ class NavBar extends React.Component {
           <Link id='link' to={'/team'}> Team </Link>
         </Menu.Item>
 
-        <Menu.Item id="nav-bar-item" key="Journal" href='/journal'>
-          <Link id='link' to={'/journal'}> Journals </Link>
-        </Menu.Item>
-
         <Menu.Item id="nav-bar-item" key="Research">
           <Link id='link' to={'/research'}> Research </Link>
+        </Menu.Item>
+        
+        <Menu.Item id="nav-bar-item" key="Journal" href='/journal'>
+          <Link id='link' to={'/journal'}> Journals </Link>
         </Menu.Item>
 
         <Menu.Item id="nav-bar-item" key="Home" href='/'>
