@@ -23,7 +23,7 @@ class WelcomePage extends React.Component {
     return (
       <div className="main">
         <WelcomeImages/>
-        <img src='/sa_text.png'
+        <img src='/sa_text2.png'
              style={{marginBottom: '1em', marginTop: '1em', width: '30%'}}
         />
         <div className="explore-button">

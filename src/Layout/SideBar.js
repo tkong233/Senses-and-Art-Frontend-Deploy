@@ -8,7 +8,7 @@ class SideBar extends React.Component {
     return (
             <Sider id="side-bar">
                 <a href='/'>
-                <img id="sa-text" src='/sa_text.png' />
+                <img id="sa-text" src='/sa_text2.png' />
                 </a>
             </Sider>
     );
