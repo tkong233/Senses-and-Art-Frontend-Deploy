@@ -3,17 +3,20 @@
 }
 
 .button-div {
-    /* padding-top: 50px */
+    padding-top: 50px
 }
 
 .image-div {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .song-div {
     padding-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #button:hover {

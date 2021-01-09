@@ -6,7 +6,7 @@ import './ImageDescription.css';
 class ImageDescription extends React.Component {
     render() {
         let date = this.props.date ? this.props.date : "dates unknown";
-        let contributor = "contributed by " + this.props.contributor;
+        let contributor = "Contributed by: " + this.props.contributor;
 
         return(
             <div>
