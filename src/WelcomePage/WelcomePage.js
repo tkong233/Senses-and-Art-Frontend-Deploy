@@ -41,7 +41,9 @@ class WelcomePage extends React.Component {
         <ReactPlayer className='video react-player'
                     url='https://youtu.be/EMciAqjmhso'
         />
-
+        <p id='credit'>
+          Machine with Wishbone - Arthur Ganson, MIT Museum, 2006
+        </p>
       </div>
     );
   }

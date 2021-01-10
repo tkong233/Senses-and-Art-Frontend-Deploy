@@ -37,6 +37,12 @@ p {
     margin-right: auto;
 }
 
+#credit {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 #button {
     font-size: large;
     font-weight: bold;
