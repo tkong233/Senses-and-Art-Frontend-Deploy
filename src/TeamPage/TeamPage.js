@@ -35,6 +35,11 @@ class TeamPage extends React.Component {
         intro: 'Khushbu is an engineer, educator and researcher currently pursuing her masters in S.T.E.M. Education at Tufts University. She is specializing in designing hands-on learning experiences using math and mechanics. Khushbu is also a researcher at the Tufts University Center for Engineering Education and Outreach where she is designing a curriculum for middle-school students to create biorobots – artifacts inspired by biomimicry.  In her role as a maker, Khushbu is obsessed with researching and designing technologies to promote and empower tinkering, mainly in informal settings such as museums and playgrounds. She has experiences of working as a production engineer at Bosch Ltd, managing a maker space in India and designing S.T.E.M.-based games and toys for kids as a product designer at a start-up firm called Smartivity. While her primary focus is the intersection of art, design and technology, Khushbu loves playing basketball and petting dogs.'
       },
       {
+        name: 'Elizabeth Mendoza Tenorio',
+        role: 'UX Designer',
+        intro: 'Social communicator and designer by National University of San Marcos (Perú) who loves technology and projects with a positive impact on people.'
+      },
+      {
         name: 'Rita Wolf',
         role: 'Narrator',
         intro: 'RITA WOLF is an actress and theatre producer in both the UK and the US. She recently collaborated with Richard Nelson on The Michaels (part one of a two part cycle) at the Public Theatre in NYC. She is also a Founder Member of KALI Theatre Company in London.'

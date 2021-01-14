@@ -189,16 +189,16 @@ class App extends React.Component {
             song_contributor_url: "orchestra",
             song_path: 'http://hwcdn.libsyn.com/p/b/2/d/b2d59a31db6c88ef/tradchinese_ancientbattlefield_wei.mp3?c_id=4578127&cs_id=4578127&expiration=1594583456&hwt=7f22ea84d9f1f380bed71c91f81d2768',
           },
-          {
-            id : 15,
-            title : "East Meets West Via Double Bass",
-            performer : "DaXun Zhang and Yang Wei",
-            composer : "Various",
-            instrument : "double bass and pipa",
-            contributor : "Isabella Stewart Gardner Museum",
-            song_contributor_url: "orchestra",
-            song_path: 'http://hwcdn.libsyn.com/p/e/a/8/ea8d302a5530fa76/theconcert143.mp3?c_id=4578123&cs_id=4578123&expiration=1594589226&hwt=e698bb4e699cf0517a6afdff0d44ceae',
-          },
+          // {
+          //   id : 15,
+          //   title : "East Meets West Via Double Bass",
+          //   performer : "DaXun Zhang and Yang Wei",
+          //   composer : "Various",
+          //   instrument : "double bass and pipa",
+          //   contributor : "Isabella Stewart Gardner Museum",
+          //   song_contributor_url: "orchestra",
+          //   song_path: 'http://hwcdn.libsyn.com/p/e/a/8/ea8d302a5530fa76/theconcert143.mp3?c_id=4578123&cs_id=4578123&expiration=1594589226&hwt=e698bb4e699cf0517a6afdff0d44ceae',
+          // },
         ],
 
         images : [

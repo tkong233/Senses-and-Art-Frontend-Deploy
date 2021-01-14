@@ -8,7 +8,7 @@ class MeditationPage extends React.Component {
     render() {
         return (
             <div className="page">
-              <div>
+              <div className='guide'>
                 <p>Look, Listen, and Notice.</p>
                 <p>Why were you first drawn to this work of art?</p>
                 <p>Why does this piece of music feel well suited to the image?</p>

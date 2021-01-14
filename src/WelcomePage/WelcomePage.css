@@ -37,6 +37,13 @@ p {
     margin-right: auto;
 }
 
+#welcome-words {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: larger;
+}
+
 #credit {
   margin-left: auto;
   margin-right: auto;

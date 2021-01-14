@@ -19,6 +19,10 @@
     margin-right: auto;
 }
 
+.guide {
+  font-size: larger;
+}
+
 #button:hover {
     color: #ecb025;
     border-color: #ecb025;

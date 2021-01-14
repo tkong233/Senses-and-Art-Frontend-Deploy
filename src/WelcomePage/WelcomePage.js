@@ -31,11 +31,20 @@ class WelcomePage extends React.Component {
             Explore
           </Button>
         </div>
-        <p>
+        {/* <p>
         Though we cannot meet face-to-face to appreciate the arts, we can cultivate a calm, 
         mindful awareness of our senses as a resource.  While we are apart, we can remain 
         engaged. Our personal perceptions are the settings in which the arts become meaningful.  
         Senses and Art is place to for you in this difficult time.
+        </p> */}
+
+        <p id='welcome-words'>
+        As you anxiously wait for an end  
+        to the separation from friends, <br/> a time when you can 
+        again share your appreciation of the arts; <br/> take a few minutes.  
+        <br/>Pause to discover the calm within you. <br/> What we bring to art may
+        surprise, enlighten and connect us all, <br/>as we wait for one another to return.
+
         </p>
 
         <ReactPlayer className='video react-player'
