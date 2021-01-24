@@ -371,7 +371,7 @@ class App extends React.Component {
                             <Route path="/" exact render={() => <WelcomePage/>}/>
                             <Route path="/map" exact render={() => <MapPage/>}/>
                             <Route path="/team" exact render={() => <TeamPage/>}/>
-                            <Route path="/research" exact render={() => <ResearchPage/>}/>
+                            <Route path="/resources" exact render={() => <ResearchPage/>}/>
                             <Route path="/songs" exact render={() => <SongPickerPage songs={this.state.songs}
                                                                             image={this.getImageById(selectedImageId)}
                                                                             onClickSelectSongButton={this.onClickSelectSongButton.bind(this)}

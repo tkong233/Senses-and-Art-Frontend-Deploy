@@ -10,19 +10,24 @@ class MeditationPage extends React.Component {
             <div className="page">
               <div className='guide'>
                 <p>Look, Listen, and Notice.</p>
-                <p>Why were you first drawn to this work of art?</p>
-                <p>Why does this piece of music feel well suited to the image?</p>
+                <p>Music can increase your spatial awareness, because we unconsciously translate meaning 
+from one sense perception into another.</p>
+                <p>So notice, do the melody or the rhythm move your eye or focus your attention?</p>
+                <p>As your senses combine, you may see more in this image.</p>
               </div>
-              
+
+              <div className='song-div'>
+                <SongCard
+                  songSelectEnabled={false}
+                  {...this.props.song}
+                />
+                </div>
+
                 <div className='image-div'>
                     <Image {...this.props.image}/>
                 </div>
                 
-                <div className='song-div'>
-                    <SongCard songSelectEnabled={false}
-                            {...this.props.song}/>
-                </div>
-                <div style={{height: 600, marginTop: "5%"}}>
+                <div style={{height: 600, marginTop: "15px"}}>
                   <iframe
                     style={{width: "100%", height: "100%", marginLeft: "auto", marginRight: "auto"}}
                     src="https://docs.google.com/forms/d/e/1FAIpQLSc-QdsyV3F0MDD4Q5cWgyno4KMZ-sBQD8IKm_jc8DaTzSAJWA/viewform?embedded=true"
@@ -33,7 +38,7 @@ class MeditationPage extends React.Component {
                 </div>
                 <div className='button-div'>
                     <Button id='button' href='/journal'>
-                        Next
+                        View Other Visitors' Journals
                     </Button>
                 </div>
             </div>

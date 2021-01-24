@@ -1,3 +1,7 @@
 .journal-page {
   min-height: 100%;
 }
+
+h1 {
+  margin:20px;
+}

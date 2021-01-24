@@ -7,7 +7,8 @@ class CloseButton extends React.Component {
     render() {
         return (
             <Link to="/images">
-                <CloseOutlined id="close-button"/>
+              <p>Choose Another Image</p>
+                {/* <CloseOutlined id="close-button"/> */}
             </Link>
         );
     }

@@ -5,3 +5,18 @@
 .main p {
   text-align: left;
 }
+
+h3 {
+  font-size: large;
+}
+
+hr {
+  border-top: 2px solid #bbb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reference {
+  font-size: small;
+  text-align: left;
+}

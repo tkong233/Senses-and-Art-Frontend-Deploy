@@ -6,6 +6,18 @@ html, body {
     font-family: Garamond, serif;
 }
 
+p {
+  font-size: large;
+}
+
+h1 {
+  font-size:xx-large;
+}
+
+h3 {
+  font-size: x-large;
+}
+
 .App {
     text-align: center;
     margin: auto;

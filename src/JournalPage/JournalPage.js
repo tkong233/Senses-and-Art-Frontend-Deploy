@@ -17,6 +17,9 @@ class JournalPage extends React.Component {
     const { journals } = this.state;
     return (
       <div className='journal-page'>
+        <h1>Journals</h1>
+        <p>These are the observations visitors have made after pairing a work of art  with a piece of music.</p>
+        
         {journals.map(j => (
           <Journal
             song={j.song}
