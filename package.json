@@ -21,7 +21,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "sass": "^1.26.10",
-    "save": "^2.4.0"
+    "save": "^2.4.0",
+    "screenfull": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

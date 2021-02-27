@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
+import VideoPlayer from './VideoPlayer';
 import WelcomeImages from './WelcomeImages';
 import './WelcomePage.css';
 
@@ -38,10 +39,18 @@ class WelcomePage extends React.Component {
         surprise, enlighten and connect us all, as we wait for one another to return.
         </p>
 
-        <ReactPlayer
+        <VideoPlayer/>
+
+        {/* <ReactPlayer
           className='video react-player'
-          url='https://youtu.be/EMciAqjmhso'
-        />
+          // url='https://youtu.be/EMciAqjmhso'
+          url='https://senses-and-art.s3.amazonaws.com/Teaser+for+museums_1.mp4'
+          config={{
+            file: {
+            }
+          }}
+        /> */}
+
         
       </div>
     );
