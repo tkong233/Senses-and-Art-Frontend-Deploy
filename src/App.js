@@ -189,6 +189,26 @@ class App extends React.Component {
             song_contributor_url: "orchestra",
             song_path: 'http://hwcdn.libsyn.com/p/b/2/d/b2d59a31db6c88ef/tradchinese_ancientbattlefield_wei.mp3?c_id=4578127&cs_id=4578127&expiration=1594583456&hwt=7f22ea84d9f1f380bed71c91f81d2768',
           },
+          {
+            id : 15,
+            title : 'Her',
+            performer : 'Tomas Vellejo',
+            composer : 'Tomas Vellejo',
+            instrument : 'guitar',
+            contributor : 'Tomas Vellejo',
+            song_contributor_url: 'Tomas Vellejo',
+            song_path : 'https://senses-and-art.s3.amazonaws.com/Her.wav'
+          },
+          {
+            id : 16,
+            title : 'Alone',
+            performer : 'Tomas Vellejo',
+            composer : 'Tomas Vellejo',
+            instrument : 'guitar',
+            contributor : 'Tomas Vellejo',
+            song_contributor_url: 'Tomas Vellejo',
+            song_path : 'https://senses-and-art.s3.amazonaws.com/Alone.wav'
+          },
           // {
           //   id : 15,
           //   title : "East Meets West Via Double Bass",
