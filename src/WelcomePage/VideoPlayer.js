@@ -9,7 +9,7 @@ import Duration from './Duration';
 
 class VideoPlayer extends React.Component {
     state = {
-        url: 'https://senses-and-art.s3.amazonaws.com/Teaser+for+museums_1.mp4',
+        url: 'https://video-senses.s3.amazonaws.com/Senses+and+Art+at+MIT+-+Sneak+Peek.mp4',
         pip: false,
         playing: false,
         controls: false,
